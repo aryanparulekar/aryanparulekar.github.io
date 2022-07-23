@@ -1,0 +1,247 @@
+body {
+    background-color: #f2f2f2;
+    /* background: linear-gradient(#b6d8e4, #ffffff); */
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.navigation {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    min-width: 1000px;
+    background-color: #007777;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    height: 100px;
+}
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+  .rect1 {
+    height: 6vw;
+    width:80vw;
+    color:white;
+    background-color: #003050;
+    border-radius:7px;
+    margin: 0 auto;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    src: url(/Fonts/Lato/Lato-Black.ttf);
+    font-family: latobold;
+}
+
+@font-face {
+    src: url(/Fonts/Lato/Lato-Regular.ttf);
+    font-family: lato;
+}
+
+@font-face {
+    src: url(/Fonts/Lato/Lato-Light.ttf);
+    font-family: latolight;
+}
+
+
+
+#box1 {
+	background: #003050;
+	border-radius: 15px;
+    height: 300px;
+    width: 10%;
+}
+
+@font-face {
+    src: url(/Fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-family: opensansreg;
+}
+  
+
+#A {
+    background: #b6d7e4;
+  }
+  
+  
+  svg {
+    width: 160%;
+    height: 100%;
+  }
+  
+  svg path {
+    fill: #b6d7e4;
+  }
+  
+  svg rect {
+    fill: #f2f2f2;
+  }
+  
+  .container {
+    --divider-height: 4rem;
+    
+    position: relative;
+    top: calc( var(--divider-height)/2 * -1 );
+  
+    height: var(--divider-height);
+    width: 1800%;
+      /* alternatively, could get rid of the rect, and move the svg container further down */
+  
+    float: left; 
+    z-index: 1;
+    
+  }
+  
+  
+  /** Cosmetics **/
+  * {
+    margin: 0;
+  }
+  #A, #B {
+    padding: 5rem;
+  }
+
+  #A {
+    color: white;
+  }
+  
+
+.jumbotron {
+    background-image: url(/Banner1.png);
+    background-size: cover;
+    height: 850px;
+}
+
+.navigation {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    min-width: 1000px;
+}
+
+p{
+    font-family: latobold;
+    font-size:55px;
+      line-height: normal;
+
+}
+
+h2 {
+    font-family: "latobold";
+    font-size: 10px;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: "latobold";
+    font-size: 1.75vw;
+    color:#b6d7e4;
+    text-align: center;
+    
+}
+
+h6 {
+    font-family: "latobold";
+    font-size: 1vw;
+    color: #d00000;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+
+}
+h5 {
+  font-family: "latobold";
+  font-size: 0.75vw;
+  color: #003050;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  text-align: center;
+
+}
+
+
+
+
+      
+.paragraph-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: latobold;
+    font-size: 6.5vw;
+    text-align: center;
+}
+
+.div-2 {
+    background-color: #ffffff;
+    height: 145vh;
+}
+
+.rect0 {
+    height: 2vw;
+    width:4;
+    color:white;
+    background-color: #ffffff;
+    border-radius:7px;
+    margin: 0 auto;
+}
+
+.rect2 {
+    height: 300px;
+    width:700px;
+    color:white;
+    background-color: #ffffff;
+    border-radius:7px;
+    margin-left: 7.5%;
+    position: relative; 
+    justify-content: center;
+
+  
+
+}
+
+.rect3 {
+    height: 26vw;
+    width:20vw;
+    color:white;
+    background-color: #b6d7e4;
+    border-radius:7px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.rect4{
+    height:22vw;
+    width: 16vw;
+    color:white;
+    background-color: #ffffff;
+    border-radius:7px;
+    position: absolute; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.blank{
+    background-color: #ffffff;
+    height:0.2vw;
+
+}
+
+img{
+    width: 12vw;
+}
